@@ -424,7 +424,7 @@ outline: none;
                 letter-spacing: 1px;
                 position : relative;
                 top: 100px;
-                left: -140px;
+                left: -170px;
                 text-align:left;
                
 
@@ -524,7 +524,7 @@ outline: none;
             .dmws_foot_heading {
                 display: inline-block;
                 margin-top: -5px;
-                margin-left: 140px !important;
+                margin-left: 160px !important;
             }
             .dmws_footer  h3{
                 font-size: 12px;
@@ -569,14 +569,14 @@ outline: none;
             /* ==== social connect === */
             .dmwsFb{
                 position: absolute;
-                top : 98rem;
-                left: 12rem;
+                top : 101rem;
+                left: 11rem;
                 width: 19.5px;;
             }
             .dmwsTwitter{
                 
                 position: absolute;
-                top: 98rem;
+                top: 101rem;
                 left: 15rem;
                 width: 22px;
             }
