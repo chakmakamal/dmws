@@ -433,7 +433,7 @@ outline: none;
                 
                 position: relative;
                 top: 160px;
-                left: -65px;
+                left: -60px;
                 width: 100px;
             }
             /* === who we are === */
@@ -569,15 +569,15 @@ outline: none;
             /* ==== social connect === */
             .dmwsFb{
                 position: absolute;
-                top : 95rem;
-                left: 11rem;
+                top : 98rem;
+                left: 12rem;
                 width: 19.5px;;
             }
             .dmwsTwitter{
                 
                 position: absolute;
-                top: 95rem;
-                left: 14rem;
+                top: 98rem;
+                left: 15rem;
                 width: 22px;
             }
         #dropmail{
