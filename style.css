@@ -1,0 +1,618 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* DMWS logo */
+.dmws_logo{
+    
+    position: absolute;
+    top: 14px;
+    left: 25px;
+    width: 6%;
+ }
+
+/* Dmws name */
+.dmws_name{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    line-height: 23px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    text-transform: uppercase;
+   
+   
+}
+
+/* Dmws menus */
+#dmws_menus{
+   float: right;
+   position: absolute;
+   right: 42px;
+   top: 51px;
+}
+#dmws_menus li{
+    display: inline;
+}
+#dmws_menus li a{
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-left: 55px;
+    text-decoration: none;
+  
+    
+}
+#dmws_menus li a:hover{
+    border-bottom: 2px solid #2ecc71;
+    
+}
+
+/* donate menu */
+#donate{
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #0984e3;
+    border: none;
+    border-radius: 20px;
+    padding: 7.5px 16px;
+    
+}
+#donate:hover{
+    border-bottom: none !important;
+}
+
+/* first section - image */
+.first_section{
+    background-image: url("images/smilingboy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 550px;
+    margin-left: 40px;
+    margin-top: 90px;
+    width: 94%;
+
+}
+.first_section h1{
+    float: right;
+    line-height: 50px;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 35%;
+    top: 240px;
+    left: 100px;
+    text-align: left;
+}
+.dmwsHelpBtn{
+  
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    width: 130px;
+}
+
+/* Who are we section */
+.whoweare{
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 110px;
+    width: 92.7%;
+
+}
+ .dmws_heading{
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 100px;  
+}
+hr{
+    margin:  auto ;
+    width: 195px;
+     border: none;
+     border-top: 1px solid green;
+
+}
+.whoweare p{
+    margin-top: 20px;
+    padding: 50px;
+    line-height: 24px;
+    word-spacing: 2px;
+}
+
+/* what we do */
+.whatwedo{
+    margin-left: 40px;
+    margin-top: 150px;
+    width: 92.7%;
+}
+
+.dmws_edu{
+    display: flex;
+}
+.heading{
+     font-size: 25px;
+}
+.edu_heading{
+  padding: 50px 0 10px 50px;
+  margin-top: 100px;
+  
+}
+.dmws_edu p{
+    padding: 10px 500px 10px 50px ;
+}
+.dmws_edu_img{
+    position: relative;
+    right: 20%;
+    top : -50px;
+    width: 170px;
+}
+
+/* dmws health */
+.health_section{
+    margin-top: 100px;
+}
+ .dmws_health{
+     display: flex;
+     width: 92.7%;
+ }
+ .dmws_health p{
+    padding: 50px;
+    margin-left: 200px;
+ }
+ .health_heading{
+     float: right;
+     position: absolute;
+     right: 56.5%;
+ }
+.dmws_health_img{
+    margin-left: 50px;
+    margin-top: -20px;
+    width: 170px;
+}
+
+/* Footer */
+.dmws_footer{
+    background-color: #040d21;
+    /* border-top-right-radius: 35px; */
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 92.7%;
+}
+.dmws_foot_article{
+    color:  #fff;
+    
+}
+.dmws_foot_heading{
+    color: #fff;
+}
+.dmws_footer h3{
+    border: 2px solid rgb(187, 207, 187);
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    top: 25px;
+    margin-left: 45%;
+}
+section{
+    display: flex;
+    margin-top: 5%;  
+}
+article{
+    flex: 1;
+    padding-left: 10%;
+}
+article h2{
+    font-size: 16px;
+}
+article p{
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.dmws_copy_right{
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Donate page */
+#donatePage{
+    background-color: #a0a9bd;
+    border-radius: 5px;
+    display: none;
+    opacity: 0.9;
+    height: 430px;
+    position: absolute;
+    top: 130px;
+    right: 400px;
+    width: 400px;
+    
+}
+#closeDonatePage{
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+.dmwsDonateDetails{
+   
+    color: #fff;
+    font-size: 14px;
+    height: 300px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    width: 350px;
+
+    
+}
+.dmwsDonateDetails h4{
+    text-align: center;
+  
+}
+.dmwsDonateDetails #details{
+    margin-top: 50px;
+}
+.dmwsDonateDetails p{
+    padding-top: 7px;
+}
+.dmwsDonateDetails #dmwsNote{
+    
+    margin-top: 100px;
+}
+.dmwsDonateDetails span{
+    color: red;
+}
+button{
+    background-color: #0984e3;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 35px;
+    width: 100px;
+
+}
+button:focus{
+outline: none;
+}
+
+
+#dropmail{
+    
+    display: none;
+
+}
+.dmwsHelpBtn{
+    cursor: pointer;
+    
+}
+.dmwsHelpBtn:hover{
+    height: 40px;
+    width: 135px;
+    /* transition: 1s; */
+}
+
+/* === MOBILE VIEW === */
+
+@media (max-width: 700px){
+ 
+   
+                .navbars{
+                    display: inline-block;
+                }
+                .navbars .dmws_name{
+                    color: #000 !important;
+                    display: inline-block;
+                    font-size: 8.5px;
+                    line-height: 13px;
+                    position: relative;
+                    top: 16px;
+                    left: 140px;
+                    text-align: justify;
+                }
+                .dmws_name span{
+                    margin-left: 8px;
+                }
+                .navbars #dmws_menus{
+                    background-color:#040d22;
+                    height: 100%;
+                    display: none;
+                    position: absolute; 
+                    left: 0px;
+                    top: 55px;
+                    transition: 3s;
+                    width: 60%;
+                    z-index: 1;
+                }
+                .navbars #dmws_menus li a{
+                    color: #fff;
+                    display: block;
+                    padding : 40px;
+                    margin-left: 20px;
+                }
+
+                    /*=== Menu icon ===*/
+
+                /*-- bars container --*/
+                .menuBars{
+                    display: block;
+                    width: 40px;
+                    height: 20px;
+                    position: absolute;
+                    top: 22px;
+                }
+            /*-- Common for all three bars --*/
+            .m_bar{
+                background-color: #000;
+                border: none;
+                border-radius: 10px;
+                height: 1px;
+                left: 15px;
+                position: absolute;
+            }
+
+
+            /*-- bar one(top) --*/
+            .menuBars .top{
+                width: 22px;
+            }
+
+            /*-- bar Two(middle) --*/
+            .menuBars .middle{
+                top: 6px;
+                width: 18px;
+            }
+
+            /*-- bar three(bottom) --*/
+            .menuBars .bottom{
+                
+                top: 12px;
+                width: 14px;
+            }
+            /* -- donate -- */
+            #donate{
+                color: #fff !important;
+                background-color: #0984e3;
+                border: none;
+                border-radius: 20px;
+                padding: 7px 23px !important;
+                margin-left: 50px !important;
+                margin-top: 50px;
+                width: 70px;
+                
+            }
+            #dmws_menus li a:hover{
+                border-bottom: none !important;
+            }
+            /* -- dmws logo -- */
+            .dmws_logo{
+                display: none;
+            
+            }
+
+            /* === First Section ==== */
+            .first_section{
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: inline-block;
+                height: 300px;
+                margin-top: 30px;
+                margin-left: 0;
+                width: 100%;
+                
+            }
+            .first_section h1{
+                color: #fff;
+                font-size: 20px;
+                line-height: 28px;
+                letter-spacing: 1px;
+                position : relative;
+                top: 100px;
+                left: -140px;
+                text-align:left;
+               
+
+            }
+            .dmwsHelpBtn{
+                
+                position: relative;
+                top: 160px;
+                left: -65px;
+                width: 100px;
+            }
+            /* === who we are === */
+            .whoweare{
+            
+                margin: 0;
+                margin-top: 50px;
+                margin-left: 16px;
+                min-height: 100%;
+                width: 90%;
+            }
+            .dmws_heading{
+            
+                font-size: 13px;
+                letter-spacing : 2px;
+                margin-top: 10px; 
+            }
+            hr{
+                display: none;
+            }
+            #dmws_whoweare p{
+                font-size: 12px;
+                line-height: 16px;
+                padding: 10px;
+                margin-top: 2px;
+
+            }
+            /* -- What we Do --- */
+            .whatwedo{
+
+                margin-left: 20px;
+            }
+            .dmws_edu_img{
+                display: none;
+            }
+            .dmws_edu{
+                background-color: #28abb9;
+                box-shadow: 0 0 5px 2px rgba(187, 207, 187, 0.8);
+                color: #fff;
+                margin: 10px 0 0 0;
+                width: 90%;
+            }
+            .dmws_edu p{
+                
+                display: inline-block;
+                font-size: 12px;
+                padding: 15px;
+            }
+            .edu_heading{
+                display: inline-block;
+                font-size: 13px;
+                padding: 0;
+                margin-left: 0;
+                margin-top: 30px;
+            }
+            /*-- Health Section --*/
+            .dmws_health_img{
+                display: none;
+            }
+
+            .health_heading {
+            
+                font-size: 13px;
+                margin: 20px 0 0 10px;
+                position: absolute;
+                left: 10px;
+                
+            }
+            .dmws_health{
+                background-color: #28abb9;
+                box-shadow: 0 0 5px 2px rgba(187, 207, 187, 0.8);
+                color: #fff;
+                margin-top: 43px;
+                width: 90%;
+            }
+            .dmws_health p{
+                font-size: 12px;
+                margin: 0 ;
+                padding: 15px;
+
+            }
+            /*=== footer ===*/
+            .dmws_footer{
+                margin-top: 200px;
+                margin-left: 0;
+                width: 100%;
+            }
+            .dmws_foot_heading {
+                display: inline-block;
+                margin-top: -5px;
+                margin-left: 140px !important;
+            }
+            .dmws_footer  h3{
+                font-size: 12px;
+            }
+            .dmws_branch{
+                
+                margin-top: 20px;
+                margin-left: 5px !important;
+            
+            }
+
+            section{
+                display: flex;
+                
+            }
+            article{
+                
+                flex: 1;
+                display: inline-block;
+                padding: 15px;
+            
+            }
+            article h2{
+                font-size: 13px;
+            }
+            article p{
+                font-size: 10px;
+                line-height: 12px;
+                padding: 5px;
+            }
+            .dmws_contact_us{
+                display: none;
+            }
+            .dmws_follow_us{
+                display: none;
+            }
+            /* -- copy right -- */
+            .dmws_copy_right{
+                margin-top: 55px;
+            }
+
+            /* ==== social connect === */
+            .dmwsFb{
+                position: absolute;
+                top : 103rem;
+                left: 9rem;
+                width: 19.5px;;
+            }
+            .dmwsTwitter{
+                
+                position: absolute;
+                top: 103rem;
+                left: 12rem;
+                width: 22px;
+            }
+        #dropmail{
+            
+            background-color: #0984e3;
+            color: #fff;
+            display: block;
+            padding: 10px;
+            position: absolute;
+            top: 85rem;
+            left: 8rem;
+            text-decoration: none;
+        }
+        #donatePage{
+            background-color: #a0a9bd;
+            display: none;
+            height: 430px;
+            opacity: 1;
+            position: absolute;
+            top: 90px;
+            right: 15px;
+            width: 330px;
+            z-index: 1;
+            
+        }
+        .dmwsDonateDetails h4{
+            font-size: 14px;
+           margin-left: 90px;
+           text-align: left;
+        }
+        .dmwsDonateDetails {
+            font-size: 12px;
+        }
+        .dmwsHelpBtn:hover{
+            height: normal;
+            width: normal;
+        }
+}
