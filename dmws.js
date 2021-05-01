@@ -26,13 +26,15 @@ dmwsBody.addEventListener("click", function(){
         x.style.display = "none";
     }
 })
-// dmwsBody.addEventListener("click", function(){
-//     const donatePage= document.getElementById("donatePage");
-//     if(donatePage.style.display === "block")
-//     {
-//         donatePage.style.display = "none";
-//     }
-// })
+// closing donate page
+const whoweare = document.getElementById("dmws_whoweare");
+dmwsBody.addEventListener("click", function(){
+    const donatePage= document.getElementById("donatePage");
+    if(donatePage.style.display === "block")
+    {
+        donatePage.style.display = "none";
+    }
+})
 
 //close donate page function
 const closeDonatePage = document.getElementById("closeDonatePage");
