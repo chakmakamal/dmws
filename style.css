@@ -71,7 +71,7 @@ html{
 
 /* first section - image */
 .first_section{
-    background-image: url("images/smilingboy.jpg");
+    background-image: url("smilingboy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
