@@ -323,7 +323,7 @@ outline: none;
                     line-height: 13px;
                     position: relative;
                     top: 16px;
-                    left: 140px;
+                    left: 160px;
                     text-align: justify;
                 }
                 .dmws_name span{
@@ -598,7 +598,7 @@ outline: none;
             opacity: 1;
             position: absolute;
             top: 90px;
-            right: 15px;
+            right: 38px;
             width: 330px;
             z-index: 1;
             
