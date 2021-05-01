@@ -28,7 +28,7 @@ dmwsBody.addEventListener("click", function(){
 })
 // closing donate page
 const whoweare = document.getElementById("dmws_whoweare");
-dmwsBody.addEventListener("click", function(){
+whoweare.addEventListener("click", function(){
     const donatePage= document.getElementById("donatePage");
     if(donatePage.style.display === "block")
     {
